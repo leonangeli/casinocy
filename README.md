@@ -58,7 +58,7 @@ Signup test
 npm run signup-report
 ```
 
-Navbar Langugage test
+Navbar Language test
 
 ```
 npm run navbar-report
