@@ -10,6 +10,7 @@ Here're some of the project's best features:
 - Faker library to automate random data for signup testing
 - Mochawesome reporter for enhenced html reports
 - Prettier opinionated code formatter
+- GitHub actions
 - Best practices implementation
 
 <h2>🛠️ Installation Steps:</h2>
