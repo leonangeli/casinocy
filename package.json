@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "login-report": "cypress run --spec cypress/e2e/login.spec.cy.js --browser chrome --headed",
-    "signup-report": "cypress run --spec cypress/e2e/signup.spec.cy.js --browser chrome --headed"
+    "signup-report": "cypress run --spec cypress/e2e/signup.spec.cy.js --browser chrome --headed",
+    "navbar-report": "cypress run --spec cypress/e2e/navbar.spec.cy.js --browser chrome --headed"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "cypress": "^13.6.6"
   },
   "devDependencies": {
-    "cypress-mochawesome-reporter": "^3.8.2"
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "prettier": "3.2.5"
   }
 }

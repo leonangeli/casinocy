@@ -2,16 +2,15 @@
 
 <p id="description">This repository contains automated tests for the Casino Demo app implementing Cypress.</p>
 
-  
-  
 <h2>🧐 Features</h2>
 
 Here're some of the project's best features:
 
-*   Page Object Model Pattern
-*   Faker Library to automate random data for signup testing
-*   Mochawesome reporter for enhenced html reports
-*   Best practices implementation
+- Page Object Model Pattern
+- Faker library to automate random data for signup testing
+- Mochawesome reporter for enhenced html reports
+- Prettier opinionated code formatter
+- Best practices implementation
 
 <h2>🛠️ Installation Steps:</h2>
 
@@ -33,6 +32,7 @@ You can run the tests in different ways:
 
 <p>Cypress wizard</p>
 Excecute the command and follow the intuitive Cypress wizard
+
 ```
 npx cypress open
 ```
@@ -42,22 +42,32 @@ npx cypress open
 ```
 npx cypress run
 ```
+
 <p>Custom scripts with mochawesome reports</p>
 
 Login test
+
 ```
-npm run login-report  
+npm run login-report
 ```
+
 Signup test
+
 ```
-npm run signup-report 
+npm run signup-report
 ```
-  
+
+Navbar Langugage test
+
+```
+npm run navbar-report
+```
+
 <h2>💻 Built with</h2>
 
 Technologies used in the project:
 
-*   Cypress
-*   JavaScript
+- Cypress
+- JavaScript
 
 <h2>👨🏼‍💻 Solution by Agustin Leonangeli </h2>
