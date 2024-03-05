@@ -33,6 +33,7 @@ You can run the tests in different ways:
 
 <p>Cypress wizard</p>
 Excecute the command and follow the intuitive Cypress wizard
+
 ```
 npx cypress open
 ```
