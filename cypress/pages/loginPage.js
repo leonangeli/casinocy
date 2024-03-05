@@ -12,9 +12,9 @@ export class loginPage {
     cy.url().should("eq", "https://demo.casino/user/login");
   }
 
-  completeLoginForm() {
-    cy.get('[data-test="input-username"]').type(Cypress.env("USERNAME"));
-    cy.get('[data-test="input-password"]').type(Cypress.env("PASSWORD"));
+  completeLoginForm(username, password) {
+    cy.get('[data-test="input-username"]').type(username);
+    cy.get('[data-test="input-password"]').type(password);
   }
 
   clickSigninBtn() {

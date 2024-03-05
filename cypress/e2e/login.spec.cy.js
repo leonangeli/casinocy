@@ -3,6 +3,8 @@ const { loginPage } = require("../pages/loginPage");
 
 const login = new loginPage();
 const home = new homePage();
+const username = Cypress.env("USERNAME");
+const password = Cypress.env("PASSWORD");
 
 describe("User Login Tests", () => {
   Cypress.on(
@@ -29,7 +31,7 @@ describe("User Login Tests", () => {
     //Assert that the user is in the sign un page
     login.elements.loginUrl().should("eq", "https://demo.casino/user/login");
     //Fulfill the sign in form
-    login.completeLoginForm();
+    login.completeLoginForm(username, password);
     //Click sign in button
     login.clickSigninBtn();
     //Validate successful login (unable to do it due to captcha)
